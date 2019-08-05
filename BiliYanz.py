@@ -12,8 +12,8 @@ import json
 # bilibili用户名、密码
 # 全局变量
 
-USERNAME = '18755066052'
-PASSWARD = '179656481'
+USERNAME = '此处填账户'
+PASSWARD = '密码'
 BORDER = 6
 INIT_LEFT = 60
 
