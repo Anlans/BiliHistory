@@ -9,7 +9,7 @@ browser = webdriver.Chrome()
 wait = WebDriverWait(browser, 10)
 browser.get('https://www.bilibili.com/account/history')
 submit = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#app > div > div.login > div > a')))
-
+//tst
 submit.click()
 time.sleep(10)
 browser.get('http://api.bilibili.com/x/v2/history')
